@@ -5,7 +5,6 @@
 *
 */
 
-
 class ContentType {
 	public $type;
 	public $options = [];
