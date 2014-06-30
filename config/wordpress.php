@@ -19,7 +19,7 @@
 define('APP_ROOT', dirname(__DIR__));
 define('APP_ENV', getenv('APPLICATION_ENV'));
 
-/* Required for environment specific configuration */
+/* environment specific configuration */
 if(file_exists(APP_ROOT . '/config/env/local.php')){
 	require APP_ROOT . '/config/env/local.php';
 } else {
